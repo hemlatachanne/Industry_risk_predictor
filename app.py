@@ -77,7 +77,7 @@ def predict_desc(desc):
    # return pred    
 
 app = Flask(__name__)
-app.static_folder = 'static'
+#app.static_folder = 'static'
 
 @app.route("/")
 def home():
