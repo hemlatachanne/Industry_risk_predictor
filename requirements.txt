@@ -75,6 +75,4 @@ typing-extensions==4.1.1
 urllib3==1.25.8
 webencodings==0.5.1
 Werkzeug==2.0.3
-nltk.wordnet
-nltk.pros_cons
-nltk.reuters
+
