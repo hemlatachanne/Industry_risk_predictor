@@ -10,16 +10,16 @@ Created on Tue Mar 15 17:59:54 2022
 import pickle
 from keras.models import load_model
 import nltk
-from nltk.tokenize import sent_tokenize, word_tokenize
+from nltk.tokenize import word_tokenize
 import numpy as np
-from sklearn.feature_extraction.text import CountVectorizer
-from nltk.corpus import stopwords
+#from sklearn.feature_extraction.text import CountVectorizer
+#from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from tensorflow.keras.preprocessing.text import Tokenizer
 #from wordcloud import STOPWORDS
 #nltk.download('punkt')
 #nltk.download('wordnet')
-from sklearn.preprocessing import LabelEncoder 
+#from sklearn.preprocessing import LabelEncoder 
 import re
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 import warnings
