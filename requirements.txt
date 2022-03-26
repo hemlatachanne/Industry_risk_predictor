@@ -17,6 +17,7 @@ distro==1.4.0
 Flask==2.0.1
 flatbuffers==2.0
 gast==0.5.3
+gunicorn
 google-auth==2.6.0
 google-auth-oauthlib==0.4.6
 google-pasta==0.2.0
